@@ -1,3 +1,26 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
+
+.content {
+  /* rem é uma medida relativa a algo, torna as coisas mais maleaveis, isso é uma alternativa ao 16px que é padrão */
+  padding: 1rem;
+}
+
+ol.pokemons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol.pokemons li{
+  margin: .5rem;
+  padding: 2rem 1rem;
+  background-color: #14A06f;
+  border-radius: 1rem;
+  color: #fff;
+  height: 100px;
+}
+
